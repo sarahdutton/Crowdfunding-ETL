@@ -10,24 +10,24 @@ CREATE TABLE subcategories (
 
 CREATE TABLE contacts (
     contact_id INT PRIMARY KEY,
-    first_name VARCHAR(300),
-    last_name VARCHAR(300),
-    email VARCHAR(300)
+    first_name VARCHAR(300) NOT NULL,
+    last_name VARCHAR(300) NOT NULL,
+    email VARCHAR(300) NOT NULL
 );
 
 CREATE TABLE campaigns (
     cf_id INT PRIMARY KEY,
     contact_id INT REFERENCES contacts(contact_id),
-    company_name VARCHAR(300),
-    description VARCHAR (300)
-    goal NUMERIC (10, 2),
-    pledged NUMERIC (10, 2),
-    outcome VARCHAR(50),
-    backers_count INT,
-    country VARCHAR(50),
-    currency VARCHAR(50),
-    launched_date DATE,
-    end_date DATE,
+    company_name VARCHAR(300) NOT NULL,
+    description text NOT NULL,
+    goal NUMERIC (10, 2) NOT NULL,
+    pledged NUMERIC (10, 2) NOT NULL,
+    outcome VARCHAR(50) NOT NULL,
+    backers_count INT NOT NULL,
+    country VARCHAR(50) NOT NULL,
+    currency VARCHAR(50) NOT NULL,
+    launched_date DATE NOT NULL,
+    end_date DATE NOT NULL,
     category_id VARCHAR(50) REFERENCES categories(category_id),
     subcategory_id VARCHAR(50) REFERENCES subcategories(subcategory_id)
 );
