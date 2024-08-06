@@ -11,17 +11,17 @@ Lastly, we uploaded the CSV file data into a Postgres database.
 ## Resources  ##
 
 ### Starting Files: ###
-contacts.xlsx
-crowdfunding.xlsx
-
-### CSV Files ###
-subcategory.csv
-category.csv
-contacts.csv
-campaign.csv
+contacts.xlsx \
+crowdfunding.xlsx \
+\
+### CSV Files ###\
+subcategory.csv \
+category.csv \
+contacts.csv \
+campaign.csv \
 
 ## Results ##
-subcategory_pg.png
-category_pg.png
-contacts_pg.png
-campaign_pg.png
+subcategory_pg.png \
+category_pg.png \
+contacts_pg.png \
+campaign_pg.png \
