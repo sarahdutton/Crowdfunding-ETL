@@ -61,7 +61,6 @@ Extract and transform the crowdfunding.xlsx Excel data to create a campaign Data
 -The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format \
 -The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame \
 -The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame \
-\
 -Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
 ### Create the Contacts DataFrame
