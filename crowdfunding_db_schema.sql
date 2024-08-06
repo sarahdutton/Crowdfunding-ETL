@@ -20,8 +20,8 @@ CREATE TABLE campaigns (
     contact_id INT REFERENCES contacts(contact_id),
     company_name VARCHAR(300),
     description TEXT,
-    goal NUMERIC,
-    pledged NUMERIC,
+    goal NUMERIC (10, 2),
+    pledged NUMERIC (10, 2),
     outcome VARCHAR(50),
     backers_count INT,
     country VARCHAR(50),
@@ -31,7 +31,6 @@ CREATE TABLE campaigns (
     category_id VARCHAR(50) REFERENCES categories(category_id),
     subcategory_id VARCHAR(50) REFERENCES subcategories(subcategory_id)
 );
-
 
 SELECT * FROM categories;
 SELECT * FROM subcategories;
