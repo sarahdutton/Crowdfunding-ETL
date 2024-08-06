@@ -95,3 +95,12 @@ Verify the table creation by running a SELECT statement for each table. \
 Import each CSV file into its corresponding SQL table. \
 Verify that each table has the correct data by running a SELECT statement for each.
 
+##Acknowledgements
+    Xpert Learning Assistant was used to answer detailed questions, and assist in debugging.For more information about the Xpert Learning Assistant, visit [EdX Xpert Learning Assistant](https://www.edx.org/). 
+    
+##References
+-Python Software Foundation. (n.d.). List Comprehensions. Python 3.9.0 documentation. Retrieved from https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+
+-Python Simplified. (n.d.). Comprehensive Guide to Python List Comprehensions. Retrieved from https://pythonsimplified.com/comprehensive-guide-to-python-list-comprehensions/#google_vignette
+
+-pandas development team. (n.d.). pandas.Series.str.split. pandas documentation. Retrieved from https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.split.html
