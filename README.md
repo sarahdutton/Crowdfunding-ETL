@@ -14,7 +14,7 @@ Lastly, we uploaded the CSV file data into a Postgres database.
 contacts.xlsx \
 crowdfunding.xlsx 
 
-### CSV Files 
+### CSV Files:
 subcategory.csv \
 category.csv \
 contacts.csv \
